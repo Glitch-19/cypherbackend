@@ -1,0 +1,44 @@
+# --- Python Virtual Environment ---
+venv/
+.env/
+.venv/
+env/
+
+# --- Environment Variables ---
+.env
+.env.*
+
+# --- Python Cache & Build Files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- IDE / Editor Configs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs & Databases ---
+*.log
+*.sqlite3
+*.db
+
+# --- OS-Specific Files ---
+.DS_Store
+Thumbs.db
+
+# --- Test & Coverage ---
+.coverage
+.pytest_cache/
+htmlcov/
+
+# --- Misc ---
+*.bak
